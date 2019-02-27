@@ -1,0 +1,7 @@
+[ INFO  ] Driver file: /tmp/tmpEQ44u7
+[ INFO  ] Input data file: /home/solene/atmos/CARMENES-atlas/barnardstar/car-20160325T05h28m38s-sci-gtoc-nir_A_input.fits
+[ INFO  ] Input data: flux(es) = 'nan' -> set mask = 0
+[ INFO  ] Convert input data file into /home/solene/atmos/CARMENES-atlas/output/car-20160325T05h28m38s-sci-gtoc-nir_A_tell.fits
+[ INFO  ] Read /home/solene/atmos/CARMENES-atlas/output/car-20160325T05h28m38s-sci-gtoc-nir_A_tell.fits
+[ INFO  ] Output FITS table for GUI: /home/solene/atmos/CARMENES-atlas/output/car-20160325T05h28m38s-sci-gtoc-nir_A_tell_gui.fits
+[ INFO  ] No errors occurred

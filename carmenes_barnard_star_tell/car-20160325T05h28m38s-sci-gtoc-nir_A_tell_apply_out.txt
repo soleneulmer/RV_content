@@ -1,0 +1,116 @@
+Mon May 21 15:52:38 WEST 2018
+[ INFO  ] Driver file: /home/solene/atmos/CARMENES-atlas/molecfit_carmenes_nir_fit.par
+[ INFO  ] Creating workspace in /tmp/molecfit_tmp_AuC9A9
+[ INFO  ] Input data file: /home/solene/atmos/CARMENES-atlas/barnardstar/car-20160325T05h28m38s-sci-gtoc-nir_A_input.fits
+[ INFO  ] Input data: flux(es) = 'nan' -> set mask = 0
+[ INFO  ] Convert input data file into /home/solene/atmos/CARMENES-atlas/output/car-20160325T05h28m38s-sci-gtoc-nir_A_tell.fits
+[ INFO  ] Read /home/solene/atmos/CARMENES-atlas/output/car-20160325T05h28m38s-sci-gtoc-nir_A_tell.fits
+[ INFO  ] Take keywords from FITS extension 0
+[ INFO  ] Get obsdate from keyword MJD-OBS
+[ INFO  ] Get utc from keyword CAHA DET STRT_INT
+[ INFO  ] Get telalt from keyword CAHA TEL POS EL_START
+[ INFO  ] Get rhum from keyword CAHA GEN AMBI RHUM
+[ INFO  ] Get pres from keyword CAHA GEN AMBI PRESSURE
+[ INFO  ] Get temp from keyword CAHA GEN AMBI TEMPERATURE
+[ INFO  ] Get m1temp from keyword CAHA INS FRONTEND TEMP2
+[ INFO  ] Get geoelev from keyword CAHA TEL GEOELEV
+[ INFO  ] Get longitude from keyword CAHA TEL GEOLON
+[ INFO  ] Get latitude from keyword CAHA TEL GEOLAT
+[ INFO  ] slitw is taken from parameter file
+[ INFO  ] pixsc is taken from parameter file
+[ INFO  ] Convert MJD into date in years
+[ INFO  ] Fit full spectrum (no fit ranges)
+[ INFO  ] Read atmospheric profile file /home/solene/atmos/CARMENES-atlas/output/car-20160325T05h28m38s-sci-gtoc-nir_A_tell_fit.atm.fits
+[ INFO  ] Read fit results file /home/solene/atmos/CARMENES-atlas/output/car-20160325T05h28m38s-sci-gtoc-nir_A_tell_fit.res.fits
+[ DEBUG ] wlcparmin = 4 
+[ DEBUG ] wlcparmax = 7 
+[ DEBUG ] nwlc=4
+[ DEBUG ] index=0 status
+[ DEBUG ] index=1 fit_params
+[ DEBUG ] index=2 data_points
+[ DEBUG ] index=3 positive_weights
+[ DEBUG ] index=4 valid_pix_frac
+[ DEBUG ] index=5 iterations
+[ DEBUG ] index=6 func_eval
+[ DEBUG ] index=7 lblrtm_calls
+[ DEBUG ] index=8 initial_chi2
+[ DEBUG ] index=9 best_chi2
+[ DEBUG ] index=10 reduced_chi2
+[ DEBUG ] index=11 rms_rel_to_err
+[ DEBUG ] index=12 rms_rel_to_mean
+[ DEBUG ] index=13 boxfwhm
+[ DEBUG ] index=14 boxfwhm_pix
+[ DEBUG ] index=15 gaussfwhm
+[ DEBUG ] index=16 lorentzfwhm
+[ DEBUG ] index=17 Chip 1, coef 0
+[ DEBUG ] param=Chip 1, coef 0, index=17, fitCoefIndex=4
+[ DEBUG ] index=18 Chip 1, coef 1
+[ DEBUG ] param=Chip 1, coef 1, index=18, fitCoefIndex=5
+[ DEBUG ] index=19 Chip 1, coef 2
+[ DEBUG ] param=Chip 1, coef 2, index=19, fitCoefIndex=6
+[ DEBUG ] index=20 Chip 1, coef 3
+[ DEBUG ] param=Chip 1, coef 3, index=20, fitCoefIndex=7
+[ DEBUG ] index=21 Range 1, chip 1, coef 0
+[ DEBUG ] index=22 Range 1, chip 1, coef 1
+[ DEBUG ] index=23 Range 1, chip 1, coef 2
+[ DEBUG ] index=24 Range 2, chip 1, coef 0
+[ DEBUG ] index=25 Range 2, chip 1, coef 1
+[ DEBUG ] index=26 Range 2, chip 1, coef 2
+[ DEBUG ] index=27 Range 3, chip 1, coef 0
+[ DEBUG ] index=28 Range 3, chip 1, coef 1
+[ DEBUG ] index=29 Range 3, chip 1, coef 2
+[ DEBUG ] index=30 Range 4, chip 1, coef 0
+[ DEBUG ] index=31 Range 4, chip 1, coef 1
+[ DEBUG ] index=32 Range 4, chip 1, coef 2
+[ DEBUG ] index=33 Range 5, chip 1, coef 0
+[ DEBUG ] index=34 Range 5, chip 1, coef 1
+[ DEBUG ] index=35 Range 5, chip 1, coef 2
+[ DEBUG ] index=36 Range 6, chip 1, coef 0
+[ DEBUG ] index=37 Range 6, chip 1, coef 1
+[ DEBUG ] index=38 Range 6, chip 1, coef 2
+[ DEBUG ] index=39 Range 7, chip 1, coef 0
+[ DEBUG ] index=40 Range 7, chip 1, coef 1
+[ DEBUG ] index=41 Range 7, chip 1, coef 2
+[ DEBUG ] index=42 Range 8, chip 1, coef 0
+[ DEBUG ] index=43 Range 8, chip 1, coef 1
+[ DEBUG ] index=44 Range 8, chip 1, coef 2
+[ DEBUG ] index=45 Range 9, chip 1, coef 0
+[ DEBUG ] index=46 Range 9, chip 1, coef 1
+[ DEBUG ] index=47 Range 9, chip 1, coef 2
+[ DEBUG ] index=48 Range 10, chip 1, coef 0
+[ DEBUG ] index=49 Range 10, chip 1, coef 1
+[ DEBUG ] index=50 Range 10, chip 1, coef 2
+[ DEBUG ] index=51 Range 11, chip 1, coef 0
+[ DEBUG ] index=52 Range 11, chip 1, coef 1
+[ DEBUG ] index=53 Range 11, chip 1, coef 2
+[ DEBUG ] index=54 telback
+[ DEBUG ] index=55 rel_mol_col_H2O
+[ DEBUG ] index=56 rel_mol_col_CO2
+[ DEBUG ] index=57 rel_mol_col_CH4
+[ DEBUG ] index=58 rel_mol_col_O2
+[ DEBUG ] index=59 rel_mol_col_ppmv_H2O
+[ DEBUG ] index=60 rel_mol_col_ppmv_CO2
+[ DEBUG ] index=61 rel_mol_col_ppmv_CH4
+[ DEBUG ] index=62 rel_mol_col_ppmv_O2
+[ DEBUG ] index=63 h2o_col_mm
+[ DEBUG ] index=64 
+[ DEBUG ] index=65 
+[ INFO  ] Run LNFL for 0.9581 - 1.719 µm
+STOP  LINFIL COMPLETE 
+[ INFO  ] Run LBLRTM for 0.9581 - 1.154 µm
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP  LBLRTM EXIT 
+[ INFO  ] Run LBLRTM for 1.148 - 1.447 µm
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP  LBLRTM EXIT 
+[ INFO  ] Run LBLRTM for 1.436 - 1.719 µm
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+STOP  LBLRTM EXIT 
+[ INFO  ] Process LBLRTM output file TAPE28_1
+[ INFO  ] Process LBLRTM output file TAPE28_2
+[ INFO  ] Process LBLRTM output file TAPE28_3
+[ DEBUG ] Convolving with a synthetic kernel.
+[ INFO  ] Perform telluric absorption correction
+[ INFO  ] Write results into output folder /home/solene/atmos/CARMENES-atlas/output/
+[ INFO  ] Corrected input data file: /home/solene/atmos/CARMENES-atlas/output/car-20160325T05h28m38s-sci-gtoc-nir_A_input_TAC.fits
+[ INFO  ] No errors occurred
